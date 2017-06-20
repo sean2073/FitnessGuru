@@ -1,5 +1,3 @@
-// console.log("jello");
-
 function bmiCalc(data, element) {
 	console.important("BMI Calculation:");
 	var whatToDo = data.split("-")[0];
@@ -215,10 +213,10 @@ function bmiCalc(data, element) {
 			console.log("ERROR Calulating...missing one or more input");
 		}
 	}
+}
 
-	if(whatToDo == "scroll_bmi"){
+function bmrCalc(data, element) {
 
-	}
 }
 
 console.important = function( msg){

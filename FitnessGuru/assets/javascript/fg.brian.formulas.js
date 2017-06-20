@@ -1,3 +1,4 @@
+
 function bmiCalc(data, element) {
 	console.important("BMI Calculation:");
 	var whatToDo = data.split("-")[0];
@@ -217,6 +218,10 @@ function bmiCalc(data, element) {
 
 function bmrCalc(data, element) {
 
+
+	if(whatToDo == "scroll_bmi"){
+
+	}
 }
 
 console.important = function( msg){
